@@ -1,0 +1,50 @@
+.sect
+{
+   background-color: #664CAD; 
+   padding-left: 70px;
+   position: relative;
+
+
+}
+
+.cls{
+   position:absolute;
+
+     right: 0px;
+     bottom: 20px;
+}
+
+@media only screen and (max-width: 1200px) 
+{
+   .form-estimate
+   {
+      display: grid;
+      grid-template-columns: 170px 170px 170px 170px;
+      grid-template-rows: auto auto;
+      grid-gap: 20px;
+   }
+
+}
+@media only screen and (max-width: 992px) 
+{
+   .form-estimate
+   {
+      display: grid;
+      grid-template-columns: 170px 170px ;
+      grid-template-rows: auto auto;
+      grid-gap: 20px;
+   }
+
+}
+
+@media only screen and (max-width: 550px) 
+{
+   .form-estimate
+   {
+      display: grid;
+      grid-template-columns: 170px ;
+      grid-template-rows: auto auto;
+      grid-gap: 20px;
+   }
+
+}

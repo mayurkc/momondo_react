@@ -1,0 +1,34 @@
+[
+    {
+        "Icon":"fa fa-suitcase",
+        "Distance_Met":"5670 M",
+        "Dist_Type":"CYIING TRACK"
+    }, 
+       {
+        "Icon":"fa fa-suitcase",
+        "Distance_Met":"480 M",
+        "Dist_Type":"DISTANCE COVERED"
+    },
+    {
+        "Icon":"fa fa-suitcase",
+        "Distance_Met":"5670 M",
+        "Dist_Type":"ALTITUDE HIKED"
+    }
+    ,{
+        "Icon":"fa fa-suitcase",
+        "Distance_Met":"180 M",
+        "Dist_Type":"SAILING TRACK"
+      
+    },
+    {
+        "Icon":"fa fa-suitcase",
+        "Distance_Met":"570 M",
+        "Dist_Type":"SPENT ADVENTURE"
+    }
+    ,{
+        "Icon":"fa fa-suitcase",
+        "Distance_Met":"567 M",
+        "Dist_Type":"JUNGLE DISTANCE"
+      
+    }
+]

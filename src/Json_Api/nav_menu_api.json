@@ -1,0 +1,46 @@
+[
+    {
+        "label":"Flight",
+        "Link":"/flight",
+        "islogo":false,
+        "isButton":false
+    },
+    {
+        "label":"Hotel",
+        "Link":"/hotel",
+        "islogo":false,
+        "isButton":false
+    },
+    {
+        "label":"CarHire",
+        "Link":"/carhire",
+        "islogo":false,
+        "isButton":false
+    }
+    ,{
+        "label":"TripFinder",
+        "Link":"/tripfinder",
+        "islogo":false,
+        "isButton":false
+      
+    },
+    {
+        "label":"Inspiration",
+        "Link":"/inspiration",
+        "islogo":false,
+        "isButton":false
+    },
+    {
+        "label":"",
+        "Link":"/",
+        "islogo":true,
+        "logo":"../../Images/united-states-flag-icon.svg",
+        "isButton":true
+    },
+    {
+        "label":"Login",
+        "Link":"/login",
+        "islogo":false,
+        "isButton":true
+    }
+]
