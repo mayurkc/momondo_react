@@ -16,7 +16,7 @@ function Footer() {
                     
                     {
                         footerdata.map((item, index)=>{
-                            return<Col md >
+                            return<Col md  key ={index} >
 
                               <h5>{item.title}</h5>
 
