@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Container, Form } from 'react-bootstrap';
+import { Button, Form } from 'react-bootstrap';
 import './Banner.css';
 
 function Banner() {
@@ -24,7 +24,7 @@ function Banner() {
             {/* <i className="fa fa-arrow-left  mt-4 text-white"></i> */}
 
             <Form.Group className=" ms-2 mt-2 input text-white">
-            <Form.Label className='d-none'>Destination City</Form.Label>
+            <Form.Label className='d-none '>Destination City</Form.Label>
             <Form.Control type="text" placeholder="Enter Destination City"/>
             </Form.Group>
 
@@ -33,7 +33,7 @@ function Banner() {
             <Form.Control type="date" placeholder="Enter Start Date" />
             </Form.Group>
 
-            <Form.Group className=" ms-2 mt-2 input">
+            <Form.Group className=" ms-2 mt-2  input">
             <Form.Label className='d-none'>Trav End Date</Form.Label>
             <Form.Control type="date" placeholder="Enter End Date" />
             </Form.Group>

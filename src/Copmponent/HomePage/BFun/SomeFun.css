@@ -12,9 +12,9 @@
 
    .bg-img{
     width: 100%;
-    height: 280px;
+    height: auto;
     background-size: cover;
-    padding: 0px 125px;
+    padding: 10px 125px;
     background-position: center;
     background-image: linear-gradient(rgba(126, 119, 190, 0.5),rgba(140, 78, 222, 0.5)),url(../../../Images/fly.jpg);
     
@@ -25,15 +25,41 @@
 
    }
 
+   @media only screen and (max-width: 576px) 
+   {
+       .bg-image {
+        padding: 0px 155px;
+        height:auto;
+
+        }
+        .bg-img {
+            height:auto;
+    
+            }
+       
+       .para{
+           margin-left: 10px;
+           padding-bottom: 10px;
+   
+       }
+   
+   }
    @media only screen and (max-width: 768px) 
 {
     .colm p{
      font-size: 12px;   
      }
-    .bg-image
+     .bg-image {
+        padding: 0px 195px;
+        height:auto;
+
+        }
+    .bg-img
     {
     
         height:auto;
+        padding-bottom: 10px;
+
     }
     .para{
         margin-left: 10px;
@@ -52,19 +78,47 @@
     .bg-img
     {
     height: auto;
+    padding-bottom: 10px;
+
     }
+    .colm{
+        width: 140px;   }
 
 }
 
-@media only screen and (max-width: 1350px) 
+@media only screen and (max-width: 1200px) 
 {
     
     .para{
         margin-left: 10px;
 
     }
+    .colm{
+        width: 140px;   }
     .bg-img
     {
     height: auto;
+    padding-bottom: 10px;
+
+    }
+}
+@media only screen and (max-width: 1400px) 
+{
+    
+    .para{
+        margin-left: 10px;
+
+    }
+    .colm{
+        width: 160px;   }
+    .bg-img
+    {
+    height: auto;
+    padding-bottom: 10px;
+
+    }
+    .news-search 
+    {
+        width: 300px;
     }
 }

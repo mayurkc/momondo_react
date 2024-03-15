@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Container, Image, Nav, Navbar, } from 'react-bootstrap';
+import {  Container, Nav, Navbar, } from 'react-bootstrap';
 import nav_menu from "../../Json_Api/nav_menu_api.json";
 import {Link} from 'react-router-dom';
 import './Header.css';

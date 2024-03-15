@@ -4,7 +4,6 @@ import './App.css';
 import Header from './Copmponent/Header/Header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomePage from './Copmponent/HomePage/HomePage';
-import data from './Destination.json'
 
 function App() {
   return (

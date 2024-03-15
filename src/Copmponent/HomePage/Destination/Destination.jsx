@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import funmenu from "../../../Json_Api/Destination.json";
 import './Destination.css';
 

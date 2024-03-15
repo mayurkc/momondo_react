@@ -58,7 +58,56 @@
 
 }
 
-@media only screen and (max-width: 1350px) 
+@media only screen and (max-width: 1400px) 
+{
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .banner{
+        
+        padding: 0px 35px;
+       }
+    
+    
+    
+    .inp-div
+    {
+        display: grid;
+        grid-template-columns: 170px 170px 170px 170px;
+        grid-template-rows: auto auto;
+        grid-gap: 10px;
+    }
+    .trip-detail{
+        display: grid;
+        grid-template-columns: 90px 100px 100px 100px 150px 180px;
+        grid-template-rows: auto auto;
+        grid-gap: 10px;
+        padding-bottom: 10px;
+
+    }
+    
+    
+    .search{
+        height: 70px;
+        border-radius: 50px;
+        position: absolute;
+        right:27px;
+        top: -5px;
+        font-size: 16px;    
+
+       }
+       .icon{
+            display: none;    
+       }
+       Select{
+        font-size: 14px;    
+        width: 171px;
+    }
+}
+
+@media only screen and (max-width: 1200px) 
 {
     *{
         padding: 0;
@@ -83,11 +132,13 @@
        width: 170px;
      font-size: 12px;    
      outline: none;
+     
 }
+    
     .inp-div
     {
         display: grid;
-        grid-template-columns: 170px 170px 170px;
+        grid-template-columns: 170px 170px 170px 170px;
         grid-template-rows: auto auto;
         grid-gap: 10px;
     }
@@ -105,19 +156,19 @@
     }
     
     .search{
-        height: 55px;
+        height: 65px;
         border-radius: 50px;
         position: absolute;
-        right:27px;
+        right:47px;
         top: 10px;
-        font-size: 12px;    
+        font-size: 15px;    
 
        }
        .icon{
-            display: none;    
+            display: none;   
        }
        Select{
-        font-size: 14px;    
+        font-size: 16px;    
         width: 171px;
     }
 }
@@ -209,13 +260,13 @@
     .inp-div
     {
         display: grid;
-        grid-template-columns: 170px 170px;
+        grid-template-columns: 170px 170px 170px;
         grid-template-rows: auto auto;
-        grid-gap: 10px;
+        grid-gap: 20px;
     }
     .trip-detail{
         display: grid;
-        grid-template-columns: 100px 100px 110px 100px;
+        grid-template-columns: 145px 175px 100px 100px;
         grid-template-rows: auto auto;
         grid-gap: 10px;
         padding-bottom: 10px;
@@ -227,12 +278,12 @@
     }
     
     .search{
-        height: 55px;
+        height: 65px;
         border-radius: 50px;
         position: absolute;
-        right:17px;
-        top: 160px;
-        font-size: 12px;    
+        right:12px;
+        top: 48px;
+        font-size: 14px;    
 
        }
        .icon{
