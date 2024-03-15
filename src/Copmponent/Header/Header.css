@@ -8,14 +8,14 @@
     color: white;
 }
 .us-logo{
-    margin-right: 100px;
+    margin-right: 150px;
     text-decoration: none;
     margin-top: 8px;
 
 
 }
 .login{
-    margin-right: 50px;
+    margin-right: 100px;
     padding-left: 5px;
     text-decoration: none;
     margin-top: 8px;
@@ -31,6 +31,40 @@
 .navb{
     font-size:10px ;
     gap: 2px;
+}
+
+.logo{
+    width:10px;
+     height:10px;
+}
+
+.us-logo{
+    position:absolute ;
+    right: 100px;
+}
+
+}
+
+@media only screen and (max-width: 576px) 
+{
+    
+    .us-logo{
+        margin-right: 40px;
+    
+    }
+    .login{
+        margin-right: 10px;
+        
+    }
+
+.nav-d{
+    font-size:10px ;
+    height: auto;
+    display: grid;
+
+    grid-template-columns: 49px 35px ;
+    grid-template-rows: auto auto auto ;
+    /* grid-gap: 1px; */
 }
 
 .logo{

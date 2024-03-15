@@ -34,11 +34,12 @@ function Header() {
         <>
 
 <Navbar className='bg-blue navb' >
+  
         <Container>
           <Navbar.Brand href="/">
-          <img src= {logo1} classname="" width="100px" height="40px" />
+          <img src= {logo1} classname="" width="90px" height="30px" />
         </Navbar.Brand>
-          <Nav className="me-auto ">
+          <Nav className="me-auto nav-d">
 
           {
                 nav_menu.map((item, ind) => {

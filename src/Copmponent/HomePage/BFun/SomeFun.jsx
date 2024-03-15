@@ -40,12 +40,12 @@ function SomeFun() {
        <h2>SUBSCRIBE FOR OUR NEWS LETTER</h2>
         <p>Join our communityof over 300,000 global readerss who recived emails filled with news</p>
        <p>promotion and othe good stuff from G adventures</p>
-       <div className='d-flex'>
-       <Form.Group className=" w-75 text-white news-search">
+       <div className='d-md-flex new-search'>
+       <Form.Group className=" w-75 text-white  ">
             <Form.Label className='d-none'>Destination City</Form.Label>
             <Form.Control type="text" placeholder="Enter Your Eamil Adress.."/>
         </Form.Group>
-        <Button type="button" className='ms-2 bg-white text-dark '>Search</Button>
+        <Button type="button" className='ms-2 bg-white text-dark news-btn mt-2'>Search</Button>
        </div>
        </div>
     </div>

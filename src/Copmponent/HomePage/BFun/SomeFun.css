@@ -28,7 +28,7 @@
    @media only screen and (max-width: 576px) 
    {
        .bg-image {
-        padding: 0px 155px;
+        /* padding: 0px 155px; */
         height:auto;
 
         }
@@ -36,12 +36,20 @@
             height:auto;
     
             }
-       
+            .new-search{
+                margin-top: 2px;
+            }
        .para{
-           margin-left: 10px;
-           padding-bottom: 10px;
+           margin-left: 2px;
+           padding-bottom: 20px;
    
        }
+       .para p
+       {
+        
+        font-size: 12px;
+       }
+
    
    }
    @media only screen and (max-width: 768px) 
@@ -50,7 +58,6 @@
      font-size: 12px;   
      }
      .bg-image {
-        padding: 0px 195px;
         height:auto;
 
         }
@@ -106,7 +113,7 @@
 {
     
     .para{
-        margin-left: 10px;
+        margin-left: 1px;
 
     }
     .colm{
