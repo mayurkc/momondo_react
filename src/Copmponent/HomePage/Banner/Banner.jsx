@@ -5,7 +5,7 @@ import './Banner.css';
 function Banner() {
   return (
     <>
-        <section className="banner" height={500}>
+        <section className="banner" height={800}>
        <h1 className='text-dark .col-md-fs-1'>"The Best Place To find  The cheapest airfare</h1>
        <h2 className='text-dark .col-md-fs-1'>-every  single time</h2 >
         <Form action="" className='form' >

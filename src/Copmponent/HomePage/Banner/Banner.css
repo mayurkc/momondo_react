@@ -32,6 +32,8 @@
     width: auto;
     height: auto;
     background: #5C327A;
+    margin-bottom: 40px;
+
 
    }
    .input{
@@ -310,7 +312,7 @@
     .banner h2
     {
         font-size: 10px;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
 
 
     }
@@ -319,20 +321,28 @@
      font-size: 12px;    
      outline: none;
         }
+        .banner form
+   {
+    
+    padding-bottom: 80px;
+
+
+   }
     .inp-div
     {
         padding-top: 10px;
         display: grid;
         grid-template-columns: 170px;
         grid-template-rows: auto auto;
-        grid-gap: 10px;
+        grid-gap: 5px;
     }
     .trip-detail{
         display: grid;
         grid-template-columns: 100px 100px ;
         grid-template-rows: auto auto;
         grid-gap: 10px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
+
 
     }
     .trip-detail i,label{
